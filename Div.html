@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Div Tag</title>
+<style>
+.root
+{
+height:95%;
+width: 95%;
+border: 2px solid red;
+margin-top: 3%;
+margin-left: 2%
+}
+.header
+{
+height: 08%;
+width: 95%;
+margin-left: 2%;
+margin-top: 2%;
+background: #6D1E0D;
+padding:5px;
+}
+.content
+{
+height: 65%;
+width: 75%;
+background: #6D1E0D;
+margin-left: 2%;
+margin-top: 2%;
+float:left;
+}
+.notification
+{
+height: 65%;
+width: 18%;
+border: 2px solid red;
+margin-left: 79%;
+margin-top: 2%;
+}
+.footer
+{
+height: 8%;
+width: 95%;
+margin-top: 2%;
+margin-left: 2%;
+border: 2px solid red;
+}
+.content p
+{
+color: white;
+}
+
+ul
+{
+list-style-type: none;
+}
+a
+{
+text-decoration: none;
+color: white;
+padding: 10px;
+}
+li
+{
+display: inline;
+}
+.dropdown
+{
+display: inline-block;
+}
+.dropdown_content
+{
+display: none;
+position: absolute;
+}
+.dropdown_content a
+{
+display: block;
+color: green;
+}
+.dropdown:hover .dropdown_content
+{
+display: block;
+}
+
+</style>
+</head>
+<body>
+<div class="root">
+
+<div class="header">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<div class="dropdown">
+<li><a href="#">Contact</a></li>
+<div class="dropdown_content">
+<li><a href="#">Link1</a></li>
+<li><a href="#">Link2</a></li>
+<li><a href="#">Link3</a></li></div>
+
+</ul>
+
+</div>
+<div class="content">
+<p>hi this is uttaranchal university.</p>
+
+
+</div>
+<div class="notification">
+<p> this is notification area</p>
+</div>
+<div class="footer"></div>
+
+</div>
+
+
+</body>
+</html>
